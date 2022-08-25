@@ -1,7 +1,6 @@
 package ConversorMoneda;
 
 import java.util.HashMap;
-import java.util.Map;
 import javax.swing.JOptionPane;
 
 public class ConversorMoneda {

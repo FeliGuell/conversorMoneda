@@ -40,17 +40,13 @@ public class OpcionesConversion {
 
         } while (repetido);
 
-        
         do {
             input = JOptionPane.showInputDialog(null, "Ingrese un valor");
-            if (input.matches("[\\d]")) {
-            } else {
+            if (!(input.matches("[0-9]+"))) {
                 JOptionPane.showMessageDialog(null, "Debe ingresar solo números");
             }
-        } while (!input.matches("[\\d]"));
+        } while (!input.matches("[0-9]+"));
 
-        
-        
         double valor = Double.parseDouble(input);
 
         switch (monedaLocal) {
