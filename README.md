@@ -1,0 +1,1 @@
+Conversor de moneda realizado con Apache NetBeans. Se utilizó la interfaz gráfica java Swing y fue realizado con orientación a objetos. Es un programa sencillo de manipular con 6 opciones de conversión de tipos de monedas. 
